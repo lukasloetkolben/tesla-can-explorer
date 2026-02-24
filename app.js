@@ -9,6 +9,14 @@ const DATA_SOURCES = {
     label: "Model 3 MCU3 (AMD)",
     url: "./data/can_frames_decoded_all_values_mcu3.json",
   },
+  modelsx_amd: {
+    label: "Model S/X MCU3 (AMD)",
+    url: "./data/can_frames_decoded_all_values_modelsx_amd.json",
+  },
+  modelsx_intel: {
+    label: "Model S/X MCU2 (Intel)",
+    url: "./data/can_frames_decoded_all_values_modelsx_intel.json",
+  },
 };
 const DEFAULT_SOURCE_KEY = "mcu2";
 const NUMBER_FMT = new Intl.NumberFormat("en-US");
